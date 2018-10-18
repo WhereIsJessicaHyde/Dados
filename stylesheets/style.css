@@ -1,0 +1,68 @@
+body,
+input,
+button {
+  font-family: Montserrat;
+  font-size: 16px; }
+
+.hide {
+  display: none; }
+
+.clearfix {
+  clear: both; }
+
+h1 {
+  margin: 20px auto;
+  color: rgba(215, 44, 44, 0.8);
+  padding: 0;
+  font-size: 100px;
+  text-align: center; }
+
+h2 {
+  text-align: center; }
+
+.container {
+  border: solid 10px black;
+  box-shadow: 0 5px 10px gray;
+  margin: auto;
+  text-align: center; }
+  .container-superior {
+    margin-top: 60px;
+    border-radius: 10px 10px 0 0; }
+  .container-inferior {
+    border-top: none;
+    border-radius: 0 0 10px 10px; }
+
+.tablero {
+  width: 80%;
+  height: 400px; }
+
+.contenedorDeDados {
+  height: 80%; }
+
+.tirada {
+  height: 20%;
+  border-top: 2px black solid; }
+  .tirada-position {
+    padding-top: 3%; }
+  .tirada_label {
+    font-weight: bold;
+    margin: 2%; }
+  .tirada_input {
+    width: 5%; }
+
+.pie {
+  width: 80%;
+  height: 80px;
+  background-color: rgba(215, 44, 44, 0.8); }
+
+.boton {
+  background-color: #8A2512;
+  color: #FFF;
+  border: none;
+    border-radius: 4px;
+  padding: 12px 18px;
+  display: block; }
+  .boton-position {
+    margin: 0 auto;
+    position: relative;
+    top: 25%; }

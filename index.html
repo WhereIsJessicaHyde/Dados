@@ -15,18 +15,24 @@
       <h1>Lanza tus dados!</h1>
       <h2 class="encabezado_resultado">Resultado: <span>0</span> </h2>
     </header>
-    <section class="contenedorDeDados"></section>
-    <section>
-      <form class="tirada" action="index.html" method="post">
-        <label class="tirada_label" for="tirada_numeroDados">Dados</label>
-        <input class="tirada_input tirada_numeroDados" type="text" name="tirada_numeroDados" value=1>
-        <label class="tirada_label" for="tirada_minima">minimo</label>
-        <input class="tirada_input tirada_minima" type="text" name="tirada_minima" value="1">
-        <label class="tirada_label" for="tirada_maxima">maximo</label>
-        <input class="tirada_input tirada_maxima" type="text" name="tirada_maxima" value="6">
-        <button class="boton" type="button" name="button">lanza</button>
-      </form>
+    <section class="container container-position container-superior tablero">
+      <section class="contenedorDeDados"></section>
+      <section>
+        <form class="tirada tirada-position" action="index.html" method="post">
+          <label class="tirada_label" for="tirada_numeroDados">Dados</label>
+          <input class="tirada_input tirada_numeroDados" type="text" name="tirada_numeroDados" value=1>
+          <label class="tirada_label" for="tirada_minima">minimo</label>
+          <input class="tirada_input tirada_minima" type="text" name="tirada_minima" value="1">
+          <label class="tirada_label" for="tirada_maxima">maximo</label>
+          <input class="tirada_input tirada_maxima" type="text" name="tirada_maxima" value="6">
+        </form>
+      </section>
     </section>
+    <footer class="container container-position container-inferior pie">
+        <button class="boton boton-position" type="button" name="button">lanza</button>
+    </footer>
+
+
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
   integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
