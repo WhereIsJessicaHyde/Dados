@@ -1,24 +1,14 @@
-body,
-input,
-button {
-  font-family: Montserrat;
-  font-size: 16px; }
-
-.hide {
-  display: none; }
-
-.clearfix {
-  clear: both; }
-
-h1 {
-  margin: 20px auto;
-  color: rgba(215, 44, 44, 0.8);
-  padding: 0;
-  font-size: 100px;
-  text-align: center; }
-
-h2 {
-  text-align: center; }
+.boton {
+  background-color: #8A2512;
+  color: #FFF;
+  border: none;
+    border-radius: 4px;
+  padding: 12px 18px;
+  display: block; }
+  .boton-position {
+    margin: 0 auto;
+    position: relative;
+    top: 25%; }
 
 .container {
   border: solid 10px black;
@@ -34,14 +24,12 @@ h2 {
 
 .tablero {
   width: 80%;
-  height: 400px; }
-
-.contenedorDeDados {
-  height: 80%; }
+  min-height: 75px; }
 
 .tirada {
   height: 20%;
-  border-top: 2px black solid; }
+  border-top: 2px black solid;
+  margin-bottom: 2%; }
   .tirada-position {
     padding-top: 3%; }
   .tirada_label {
@@ -55,14 +43,33 @@ h2 {
   height: 80px;
   background-color: rgba(215, 44, 44, 0.8); }
 
-.boton {
-  background-color: #8A2512;
-  color: #FFF;
-  border: none;
-    border-radius: 4px;
-  padding: 12px 18px;
-  display: block; }
-  .boton-position {
-    margin: 0 auto;
-    position: relative;
-    top: 25%; }
+.contenedorDeDados {
+  height: 80%; }
+
+.dado {
+  font-size: 8em;
+  display: inline-block;
+  margin: auto 5%;
+  color: #8A2512; }
+
+body,
+input,
+button {
+  font-family: Montserrat;
+  font-size: 16px; }
+
+.hide {
+  display: none; }
+
+.clearfix {
+  clear: both; }
+
+h1 {
+  margin: 20px auto;
+  color: #8A2512;
+  padding: 0;
+  font-size: 100px;
+  text-align: center; }
+
+h2 {
+  text-align: center; }

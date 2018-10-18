@@ -1,4 +1,8 @@
 @import 'partials/vars'
+@import 'partials/boton'
+@import 'partials/tablero'
+@import 'partials/dado'
+
 
 body,
 input,
@@ -17,7 +21,7 @@ button
 //Estilos del titulo
 h1
   margin: 20px auto
-  color: $background-red
+  color: $secundary-red
   padding: 0
   font:
     size: 100px
@@ -25,52 +29,3 @@ h1
 
 h2
   text-align: center
-
-.container
-  border: solid 10px black
-  box-shadow: 0 5px 10px gray
-  &-position
-  margin: auto
-  text-align: center
-  &-superior
-    margin-top: 60px
-    border-radius: 10px 10px 0 0
-  &-inferior
-    border:
-      top: none
-      radius: 0 0 10px 10px
-
-.tablero
-  width: 80%
-  height: 400px
-
-.contenedorDeDados
-  height: 80%
-
-
-
-.tirada
-  height: 20%
-  border-top: 2px black solid
-  &-position
-    padding-top: 3%
-  &_label
-    font-weight: bold
-    margin: 2%
-  &_input
-    width: 5%
-.pie
-  width: 80%
-  height: 80px
-  background-color: $background-red
-.boton
-  background-color: $secundary-red
-  color: $primary-white
-  border: none
-    radius: 4px
-  padding: 12px 18px
-  display: block
-  &-position
-    margin: 0 auto
-    position: relative
-    top: 25%

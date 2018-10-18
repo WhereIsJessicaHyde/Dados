@@ -33,7 +33,7 @@ $(".boton").click(function(){
     html += '<div class= "dado">';
     html += dado.numeroAleatorio();
     html += '</div>';
-  }); 
+  });
   $(".encabezado_resultado > span").html(total);
   $(".contenedorDeDados").html(html);
   console.log(total)
