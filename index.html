@@ -14,7 +14,22 @@
     <title>Dados</title>
   </head>
   <body>
-
+    <header class="encabezado">
+      <h1>Lanza tus dados!</h1>
+      <h2>Resultado: <span>0</span> </h2>
+    </header>
+    <section class="contenedorDeDados"></section>
+    <section>
+      <form class="tirada" action="index.html" method="post">
+        <label for="tirada_numeroDados">Dados</label>
+        <input type="text" name="tirada_numeroDados" value=1>
+        <label for="tirada_minima">minimo</label>
+        <input type="text" name="tirada_minima" value="1">
+        <label for="tirada_maxima">maximo</label>
+        <input type="text" name="tirada_maxima" value="6">
+        <button class="botton" type="button" name="button">lanza</button>
+      </form>
+    </section>
 
 
 
